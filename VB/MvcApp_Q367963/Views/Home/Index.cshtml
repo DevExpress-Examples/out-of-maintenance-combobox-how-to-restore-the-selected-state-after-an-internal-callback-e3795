@@ -1,0 +1,15 @@
+@inherits System.Web.Mvc.WebViewPage
+@Html.Partial("_PartialPage1", Model)
+@Html.DevExpress().Button(
+    settings => {
+        settings.Name = "button";
+        settings.Text = "Update Combo Box";
+        settings.Width = 180;
+        settings.PreRender = (sender, e) => {
+            ASPxButton btn = (ASPxButton)sender;
+            btn.AutoPostBack = false;
+        };
+
+        settings.ClientSideEvents.Click = "Button_OnClick";
+    }
+).GetHtml()

@@ -1,0 +1,14 @@
+@Html.DevExpress().ComboBox(
+    settings => {
+        settings.Name = "combo";
+        settings.Width = 180;
+        settings.SelectedIndex = 0;
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "ComboBoxPartial" };
+        settings.Properties.EnableCallbackMode = true;
+        settings.Properties.CallbackPageSize = 15;
+        settings.Properties.ValueType = typeof(int);
+        settings.Properties.TextField = "ProductName";
+        settings.Properties.ValueField = "ProductID";
+        settings.Properties.ClientSideEvents.EndCallback = "ComboBox_OnEndCallback";
+    }
+).BindList(MvcApp_Q367963.InMemoryModel.GetDataTableModel()).Bind(ViewData["ComboBoxValue"]).GetHtml()
