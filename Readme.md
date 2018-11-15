@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/MvcApp_Q367963/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MvcApp_Q367963/Controllers/HomeController.vb))
+* [Model.cs](./CS/MvcApp_Q367963/Models/Model.cs) (VB: [Model.vb](./VB/MvcApp_Q367963/Models/Model.vb))
+* [JScript1.js](./CS/MvcApp_Q367963/Scripts/JScript1.js) (VB: [JScript1.js](./VB/MvcApp_Q367963/Scripts/JScript1.js))
+* [_PartialPage1.cshtml](./CS/MvcApp_Q367963/Views/Home/_PartialPage1.cshtml)
+* [Index.cshtml](./CS/MvcApp_Q367963/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # ComboBox - How to restore the selected state after an internal callback 
 
 
