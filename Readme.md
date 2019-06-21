@@ -8,6 +8,9 @@
 * [Index.cshtml](./CS/MvcApp_Q367963/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # ComboBox - How to restore the selected state after an internal callback 
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3795)**
+<!-- run online end -->
 
 
 <p>By design, the ComboBox resets the selected item after processing its own callback. We have a suggestion to change this behavior: <a href="https://www.devexpress.com/Support/Center/p/S19880">ASPxComboBox - Allow selection to be passed from server side to client side on its callback</a>.</p><p><br />
